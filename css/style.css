@@ -40,6 +40,7 @@ body{
 .faq .heading::before, .faq .heading::after{
     border-top: .4rem solid #00bfff;
     border-left: .4rem solid #00bfff;
+    
 }
 
 .heading::before, .clients .section-header h2::before, .section-head h1::before, .testimonials .section-header h2::before, .section-head-1 h4::before{
@@ -113,6 +114,8 @@ body{
     height: 3rem;
     top: 0;
     left: 0;
+    border: 2px solid white ;
+    border-radius: 50%;
 }
 
 .header .navbar ul{
