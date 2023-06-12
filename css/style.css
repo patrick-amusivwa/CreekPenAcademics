@@ -1079,7 +1079,15 @@ body{
     .faq{
         min-height: 70vh;
     }
-}        
+}     
+
+/* remove logo when the screen width is of the phone  */
+@media screen and (max-width: 1000px){
+    .header .logo img{
+        display: none;
+    }
+}
+    
 
 @media (max-width: 1000px){
     html{
@@ -1358,3 +1366,4 @@ body{
             width: 100%;
         }
 }
+
